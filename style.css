@@ -8,6 +8,11 @@ body {
 	color: #fff;
 }
 
+@font-face {
+	font-family: 'Norse-Bold';
+	src: url('../sign-up-form/font/Norse-Bold.otf');
+}
+
 .left-side {
 	height: 100vh;
 	width: 22%;
@@ -25,24 +30,31 @@ body {
 	justify-content: center;
 	justify-items: center;
 	align-items: center;
-	height: 36%;
+	height: 60%;
 	width: 100%;
 }
 
 .left-side .image-container {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
-	background-color: rgba(00, 00, 00, 0.7);
+	background-color: rgba(00, 00, 00, 0.4);
+	padding: 0.05em;
+	font-family: 'Norse-Bold', sans-serif;
+	font-size: 3.5em;
 }
 
 .left-side .top img {
-	height: 80px;
+	height: 70px;
 }
 
 .left-side .bot {
 	align-items: flex-end;
 	justify-content: center;
 	font-size: 0.5em;
-	padding: 1em;
+	padding: 0.8em;
 }
 
 .right-side {
